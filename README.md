@@ -4,6 +4,8 @@ However! I only provided classes for the GUI version [along with 3 extra NEEDED 
 
 I also provided the .fxml ["primary.fxml" "secondary.fxml" "show.fxml"] files for those 3 extra classes as they're needed.
 
+To access the Java classes, 1) go inside the "src/main" folder then "java" folder and finally "org/example" fodler.
+
 #######################################################################################
 
 -In both versions of the project:
