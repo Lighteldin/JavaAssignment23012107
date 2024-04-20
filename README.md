@@ -20,6 +20,7 @@ I also provided the .fxml ("primary.fxml" "secondary.fxml" "show.fxml") files fo
 6) Instances of each Product Class were made "static" to be able to access them across all 3 Controller classes.
    
 ##########################################################################################################################################
+
 --EXPLANATION OF THE GUI CODE: (NOTE: The non-logical part of the GUI, like buttons, are created inside the SceneBuilder)
 
 -In EcommerceSystem class:
