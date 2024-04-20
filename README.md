@@ -1,8 +1,8 @@
 I provided 2 PDFs, 1 for GUI version of the project, called "WITH GUI", and 1 for the non-GUI version of the project, called "WITHOUT GUI".
 
-However! I only provided classes for the GUI version (along with 3 extra NEEDED classes for the GUI: PrimaryController, SecondaryController and ShowController)
+However! I only provided classes for the GUI version [along with 3 extra NEEDED classes for the GUI: PrimaryController, SecondaryController and ShowController]
 
-I also provided the .fxml ("primary.fxml" "secondary.fxml" "show.fxml") files for those 3 extra classes as they're needed.
+I also provided the .fxml ["primary.fxml" "secondary.fxml" "show.fxml"] files for those 3 extra classes as they're needed.
 
 ###########################################################################################################
 
@@ -21,7 +21,7 @@ I also provided the .fxml ("primary.fxml" "secondary.fxml" "show.fxml") files fo
    
 ###########################################################################################################
 
---EXPLANATION OF THE GUI CODE: (NOTE: The non-logical part of the GUI, like buttons, are created inside the SceneBuilder)
+--EXPLANATION OF THE GUI CODE: [NOTE: The non-logical part of the GUI, like buttons, are created inside the SceneBuilder]
 
 -In EcommerceSystem class:
    I created STATIC variables for each class of the project without instantiating them. They are static to access them across the JavaFX Controller classes.
