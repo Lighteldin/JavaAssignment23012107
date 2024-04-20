@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: seagreen;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javafx.ShowController">
+   <children>
+      <Label layoutX="53.0" layoutY="14.0" text="THANK YOU FOR SHOPPING HERE, COME BACK SOON!" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutY="35.0" prefHeight="3.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0" />
+      <Label layoutX="209.0" layoutY="44.0" text="Your order details:" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="71.0" text="Products::" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="productListView" focusTraversable="false" layoutX="50.0" layoutY="101.0" prefHeight="160.0" prefWidth="501.0" />
+      <Label fx:id="detailsMessage" layoutX="50.0" layoutY="264.0" text="x" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: seagreen;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javafx.SecondaryController">
+   <children>
+      <Label fx:id="welcomeMessage" layoutX="14.0" layoutY="14.0" text="WELCOME, replace" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="476.0" layoutY="352.0" mnemonicParsing="false" onAction="#onClickCreateOrder" prefHeight="35.0" prefWidth="110.0" style="-fx-background-insets: 0; -fx-background-radius: 3;" text="CREATE ORDER" />
+      <Button layoutX="14.0" layoutY="352.0" mnemonicParsing="false" onAction="#onClickCancelOrder" prefHeight="35.0" prefWidth="110.0" style="-fx-background-insets: 0; -fx-background-radius: 3;" text="CANCEL ORDER" />
+      <Button layoutX="134.0" layoutY="109.0" mnemonicParsing="false" onAction="#onClickOOP" style="-fx-background-insets: 1; -fx-background-radius: 3;" text="OOP | $39.99">
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font></Button>
+      <Button layoutX="237.0" layoutY="109.0" mnemonicParsing="false" onAction="#onClickSmartphone" style="-fx-background-insets: 1; -fx-background-radius: 3;" text="Smartphone | $599.9">
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font></Button>
+      <Button layoutX="380.0" layoutY="109.0" mnemonicParsing="false" onAction="#onClickTshirt" style="-fx-background-insets: 1; -fx-background-radius: 3;" text="T-Shirt | $19.99">
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font></Button>
+      <Label layoutX="220.0" layoutY="56.0" text="Available products:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="80.0" text="Click to choose" textFill="#00d6ff">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="171.0" text="CHOSEN PRODUCTS:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalMessage" alignment="CENTER" layoutX="125.0" layoutY="359.0" prefHeight="23.0" prefWidth="350.0" text="TOTAL: $0.0" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutY="35.0" prefHeight="3.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0" />
+      <Separator layoutY="341.0" prefHeight="3.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="341.0" />
+      <ListView fx:id="productListView" layoutX="50.0" layoutY="193.0" prefHeight="140.0" prefWidth="501.0" />
+   </children>
+</AnchorPane>
