@@ -4,7 +4,7 @@ However! I only provided classes for the GUI version [along with 3 extra NEEDED 
 
 I also provided the .fxml ["primary.fxml" "secondary.fxml" "show.fxml"] files for those 3 extra classes as they're needed.
 
-###########################################################################################################
+#######################################################################################
 
 -In both versions of the project:
 1) I used an ARRAYLIST to accept as many products as the user wants instead of limiting them to a number;
@@ -19,7 +19,7 @@ I also provided the .fxml ["primary.fxml" "secondary.fxml" "show.fxml"] files fo
 5) In the "EcommerceSystem" class, methods like "start()", "setRoot()" and "loadFXML()" are only related to JavaFX and not the project;
 6) Instances of each Product Class were made "static" to be able to access them across all 3 Controller classes.
    
-###########################################################################################################
+#######################################################################################
 
 --EXPLANATION OF THE GUI CODE: [NOTE: The non-logical part of the GUI, like buttons, are created inside the SceneBuilder]
 
