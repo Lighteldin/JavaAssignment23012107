@@ -1,6 +1,6 @@
 I provided 2 PDFs, 1 for GUI version of the project, called "WITH GUI", and 1 for the non-GUI version of the project, called "WITHOUT GUI".
 
-However! I only provided classes for the GUI version (along with some needs classes for the GUI including: PrimaryController, SecondaryController and ShowController)
+However! I only provided classes for the GUI version (along with 3 extra NEEDED classes for the GUI: PrimaryController, SecondaryController and ShowController)
 
 I also provided the .fxml ("primary.fxml" "secondary.fxml" "show.fxml") files for those 3 extra classes as they're needed.
 
